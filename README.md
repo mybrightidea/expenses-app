@@ -1,6 +1,15 @@
 # Example React/Redux App
 
 ## Technical overview
+**Client Architecure**
+
+Architecure is **React** using **High Order Components** to integrate into **Redux store**
+Uses react **client side routing** to create a **single page app**
+
+App also uses `moment.js` to manipulate dates and the AirBnB `react-dates` library to handle date UI
+
+Google authentication implemented to control user based security/access
+---
 
 **Build**
 
@@ -10,14 +19,7 @@ Webpack is used to bundle all components (js and sass) into a single client-side
 
 ---
 
-**Client Architecure**
 
-Architecure is **React** using **High Order Components** to integrate into **Redux store**
-Uses react **client side routing** to create a **single page app**
-
-App also uses `moment.js` to manipulate dates and the AirBnB `react-dates` library to handle date UI
-
-Google authentication implemented to control user based security/access
 
 **DB Architecture and Strategy**
 
