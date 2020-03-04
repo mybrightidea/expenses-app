@@ -27,6 +27,6 @@ Component events and user interaction are simulated using **Enzyme** and Jest _s
 
 The project is built using ES6 with some as-yet not-fully-adopted features - the js code is transpiled with **Babel** into ES5 using **env** and **react** _presets_ and **transform-class-properties** (Property initializer syntax used to create bound functions which are bound to the class instance, not put on the prototype) and **transform-object-rest-spread** (to transform rest properties for object destructuring assignment and spread properties for object literals) plugins.
 
-Webpack is used to bundle all components (js and sass) into a single client-side script to render the app
+Webpack is used to bundle all components (js and scss) into a single client-side script to render the app
 
 :+1::tada::clown_face:
