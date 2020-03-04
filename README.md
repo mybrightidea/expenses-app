@@ -1,15 +1,13 @@
 # Example React/Redux App
+## Function
+A simple app to maintain (CRUD) a list of expenses and sort, filter and totalise them.
+
+Users are authorised users using **Google Authentication** (Note NO user info is stored, it is simply a mechanism to generate a unique ID to segregate users' info)
+https://github.com/mybrightidea/expenses-app/blob/master/login.png
+
+![Dashboard image](https://github.com/mybrightidea/expenses-app/blob/master/dashboard.png "Image of dashboard")
 
 ## Technical overview
-**Client Architecure**
-
-Architecure is **React** using **High Order Components** to integrate into **Redux store**
-Uses react **client side routing** to create a **single page app**
-
-App also uses `moment.js` to manipulate dates and the AirBnB `react-dates` library to handle date UI
-
-Google authentication implemented to control user based security/access
----
 
 **Build**
 
@@ -19,7 +17,14 @@ Webpack is used to bundle all components (js and sass) into a single client-side
 
 ---
 
+**Client Architecure**
 
+Architecure is **React** using **High Order Components** to integrate into **Redux store**
+Uses react **client side routing** to create a **single page app**
+
+App also uses `moment.js` to manipulate dates and the AirBnB `react-dates` library to handle date UI
+
+Google authentication implemented to control user based security/access
 
 **DB Architecture and Strategy**
 
